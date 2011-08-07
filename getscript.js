@@ -1,5 +1,5 @@
 (function() {
-  var URL_TO_FETCH = 'http://127.0.0.1:40870/static/myhorizon.js';
+  var URL_TO_FETCH = '//raw.github.com/tomviner/Google-Calendar-My-Horizon/master/myhorizon.js';
 
   window.getScript = function (url, success){
     "Based on http://pastie.org/462639";
