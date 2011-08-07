@@ -1,5 +1,5 @@
 (function() {
-  var JQ_URL = 'http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js';
+  var JQ_URL = '//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js';
 
   function addButton($){
     $('[id="ecv"]').remove();
