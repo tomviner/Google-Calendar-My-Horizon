@@ -32,7 +32,6 @@
                 eup : 'customCalMode:custom,' + n,
                 secid : secid
               });
-        console.log(data);
         $.ajax({
           type : 'post',
           url : '/calendar/user_prefs',

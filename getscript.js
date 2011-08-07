@@ -2,7 +2,7 @@
   var URL_TO_FETCH = '//raw.github.com/tomviner/Google-Calendar-My-Horizon/master/myhorizon.js';
 
   window.getScript = function (url, success){
-    "Based on http://pastie.org/462639";
+    var credit = "Based on http://pastie.org/462639";
     var script = document.createElement('script');
     script.src = url;
     var head = document.getElementsByTagName('head')[0],
@@ -16,7 +16,8 @@
       }
     };
     head.appendChild(script);
-  }
+  };
 
   getScript(URL_TO_FETCH, function(){});
 })();
+
