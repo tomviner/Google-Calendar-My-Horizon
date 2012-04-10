@@ -4,7 +4,7 @@
   function addButton($){
     $('[id="ecv"]').remove();
     $('<button id="ecv">Edit Custom View</button>')
-      .insertAfter('.msf-container') 
+      .insertAfter('.date-top') 
       .click(function(){
         var days = 0, n,
             msg = 'How many days?';
